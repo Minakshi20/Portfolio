@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+nav{
+    z-index: 10001 !important;
+}
+.gradientBg{
+background: linear-gradient(99deg, #EE9AE5 0%, #5961F9 100%);
+}
+
+.image-rotation {
+    display: flex;
+  }
+  
+.image-rotation img {
+    width: 70px; /* Adjust as needed */
+    height: 70px; /* Adjust as needed */
+    margin-right: 10px; 
+    /* Adjust spacing between images */
+    animation: rotateImage 4s linear infinite; /* Adjust animation duration */
+  }
+  
+  @keyframes rotateImage {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
